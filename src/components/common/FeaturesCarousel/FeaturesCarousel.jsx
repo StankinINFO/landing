@@ -43,7 +43,7 @@ export default class FeaturesCarousel extends Component {
                 </IconsGroup>
                 <div id="prevButton"/>
                 <div id="nextButton"/>
-                <Carousel dots={true} ref={ this.slider }>
+                <Carousel dots={true} dotPosition="top" ref={ this.slider }>
                     {
                         slides.map(slide => {
 
