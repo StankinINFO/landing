@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './MenuSection.css';
-import  stankinLogo from '../../../static/img/stankinLogo.png'
+import  stankinLogo from '../../../static/img/stankinInfoXL.png'
 
 export default class MenuSection extends Component {
 

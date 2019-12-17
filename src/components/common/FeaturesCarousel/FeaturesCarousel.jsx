@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import {Carousel, Typography} from "antd";
+import {Carousel} from "antd";
 import IconsGroup from "../IconsGroup/IconsGroup";
 import './FeaturesCarousel.css'
 
-const { Text } = Typography
 
 export default class FeaturesCarousel extends Component {
 
@@ -42,7 +41,9 @@ export default class FeaturesCarousel extends Component {
                         ))
                     }
                 </IconsGroup>
-                <Carousel dots={false} ref={ this.slider }>
+                <div id="prevButton"/>
+                <div id="nextButton"/>
+                <Carousel dots={true} ref={ this.slider }>
                     {
                         slides.map(slide => {
 
@@ -50,9 +51,9 @@ export default class FeaturesCarousel extends Component {
 
                             return (
                                 <div className="slideContainer">
-                                    <Text style={{color: "#11116e", fontSize: "1.2rem"}}>
+                                    <span style={{color: "#11116e", fontSize: "1.2rem"}}>
                                         { text }
-                                    </Text>
+                                    </span>
                                     <div className="phoneFrameImage">
                                         { formImage &&
                                         <img className="slideFormImage" src={ formImage }/>

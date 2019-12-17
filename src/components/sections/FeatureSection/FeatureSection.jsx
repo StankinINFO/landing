@@ -9,34 +9,37 @@ import calendar from '../../../static/img/calendarColored.svg'
 import modules from '../../../static/img/journal.svg'
 import information from '../../../static/img/information.svg'
 
-import newsDisplay from '../../../static/img/appDisplays/newsDisplay.png'
-import modulesDisplay from '../../../static/img/appDisplays/modulesDisplay.png'
+import newsDisplay from '../../../static/img/appDisplays/news.png'
+import modulesDisplay from '../../../static/img/appDisplays/modules.png'
+import scheduleDisplay from '../../../static/img/appDisplays/schedule.png'
+import infoDisplay from '../../../static/img/appDisplays/infoDisplay.png'
+
 
 const {Title} = Typography
 const slides = [
     {
-        name: 'calendar',
-        text: 'Текст с описанием возможности и экрана, демонстрирующего данную возможность',
+        name: 'schedule',
+        text: 'Узнавать расписание на любой день, вспоминать название предмета, имя преподавателя, время и место занятия.',
         icon: calendar,
-        formImage: newsDisplay,
+        formImage: scheduleDisplay,
     },
     {
         name: 'modules',
-        text: 'Ещё один текст с описанием возможности и экрана, демонстрирующего данную возможность',
+        text: 'Получать полную информацию о модулях за всё время обучения. Оценки за модули, зачёты, экзамены.',
         icon: modules,
         formImage: modulesDisplay,
     },
     {
         name: 'news',
-        text: 'Снова текст с описанием возможности и экрана, демонстрирующего данную возможность',
+        text: 'Узнавать о последних новостях университета. Читать о них коротко или подробно. Все новости или только новости деканата.',
         icon: newsIsometricColored,
         formImage: newsDisplay,
     },
     {
         name: 'information',
-        text: 'Опять текст с описанием возможности и экрана, демонстрирующего данную возможность',
+        text: 'Иметь быстрый доступ к самой важной информации университета.',
         icon: information,
-        formImage: modulesDisplay,
+        formImage: infoDisplay,
     },
 ]
 

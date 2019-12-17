@@ -16,6 +16,13 @@
     margin-top: 2rem;
 }
 
+div.slideContainer > span {
+    display: inline-block;
+    color: #11116e;
+    font-size: 1.2rem;
+    max-width: 95%;
+}
+
 .phoneFrameImage {
     background-image: url("../../../static/img/phoneFrame.svg");
     width: 317px;
