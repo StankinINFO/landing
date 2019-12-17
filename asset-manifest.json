@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/stankin-info/static/css/main.0f9d1594.chunk.css",
+    "main.js": "/stankin-info/static/js/main.5e1488a1.chunk.js",
+    "main.js.map": "/stankin-info/static/js/main.5e1488a1.chunk.js.map",
+    "runtime-main.js": "/stankin-info/static/js/runtime-main.e55e4234.js",
+    "runtime-main.js.map": "/stankin-info/static/js/runtime-main.e55e4234.js.map",
+    "static/css/2.c726b981.chunk.css": "/stankin-info/static/css/2.c726b981.chunk.css",
+    "static/js/2.15faea48.chunk.js": "/stankin-info/static/js/2.15faea48.chunk.js",
+    "static/js/2.15faea48.chunk.js.map": "/stankin-info/static/js/2.15faea48.chunk.js.map",
+    "index.html": "/stankin-info/index.html",
+    "precache-manifest.d3a17e6cff75c9d1e17353d42032bb0b.js": "/stankin-info/precache-manifest.d3a17e6cff75c9d1e17353d42032bb0b.js",
+    "service-worker.js": "/stankin-info/service-worker.js",
+    "static/css/2.c726b981.chunk.css.map": "/stankin-info/static/css/2.c726b981.chunk.css.map",
+    "static/css/main.0f9d1594.chunk.css.map": "/stankin-info/static/css/main.0f9d1594.chunk.css.map",
+    "static/js/2.15faea48.chunk.js.LICENSE": "/stankin-info/static/js/2.15faea48.chunk.js.LICENSE",
+    "static/media/app-store-badge.svg": "/stankin-info/static/media/app-store-badge.3f853e84.svg",
+    "static/media/calendarColored.svg": "/stankin-info/static/media/calendarColored.98502513.svg",
+    "static/media/google-play-badge.svg": "/stankin-info/static/media/google-play-badge.ed4d7915.svg",
+    "static/media/hand2.png": "/stankin-info/static/media/hand2.0d881ca6.png",
+    "static/media/information.svg": "/stankin-info/static/media/information.030f4500.svg",
+    "static/media/journal.svg": "/stankin-info/static/media/journal.b10e7af8.svg",
+    "static/media/modulesDisplay.png": "/stankin-info/static/media/modulesDisplay.2e1478b1.png",
+    "static/media/newIsometric.svg": "/stankin-info/static/media/newIsometric.d6c7d9ec.svg",
+    "static/media/newIsometricColored.svg": "/stankin-info/static/media/newIsometricColored.611d86c9.svg",
+    "static/media/newsDisplay.png": "/stankin-info/static/media/newsDisplay.7b92cd7f.png",
+    "static/media/FeaturesCarousel.css": "/stankin-info/static/media/phoneFrame.faf37b5e.svg",
+    "static/media/stankinLogo.png": "/stankin-info/static/media/stankinLogo.345a86d5.png",
+    "static/media/stankinWhiteLogo.png": "/stankin-info/static/media/stankinWhiteLogo.13759ec5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e55e4234.js",
+    "static/css/2.c726b981.chunk.css",
+    "static/js/2.15faea48.chunk.js",
+    "static/css/main.0f9d1594.chunk.css",
+    "static/js/main.5e1488a1.chunk.js"
+  ]
+}
