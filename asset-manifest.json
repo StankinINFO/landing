@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/stankin-info/static/css/main.0f9d1594.chunk.css",
-    "main.js": "/stankin-info/static/js/main.5e1488a1.chunk.js",
-    "main.js.map": "/stankin-info/static/js/main.5e1488a1.chunk.js.map",
+    "main.css": "/stankin-info/static/css/main.7e62e8c8.chunk.css",
+    "main.js": "/stankin-info/static/js/main.b072ad6a.chunk.js",
+    "main.js.map": "/stankin-info/static/js/main.b072ad6a.chunk.js.map",
     "runtime-main.js": "/stankin-info/static/js/runtime-main.e55e4234.js",
     "runtime-main.js.map": "/stankin-info/static/js/runtime-main.e55e4234.js.map",
     "static/css/2.c726b981.chunk.css": "/stankin-info/static/css/2.c726b981.chunk.css",
-    "static/js/2.15faea48.chunk.js": "/stankin-info/static/js/2.15faea48.chunk.js",
-    "static/js/2.15faea48.chunk.js.map": "/stankin-info/static/js/2.15faea48.chunk.js.map",
+    "static/js/2.2300f98e.chunk.js": "/stankin-info/static/js/2.2300f98e.chunk.js",
+    "static/js/2.2300f98e.chunk.js.map": "/stankin-info/static/js/2.2300f98e.chunk.js.map",
     "index.html": "/stankin-info/index.html",
-    "precache-manifest.d3a17e6cff75c9d1e17353d42032bb0b.js": "/stankin-info/precache-manifest.d3a17e6cff75c9d1e17353d42032bb0b.js",
+    "precache-manifest.aa406da00ea1f5987c19555634706737.js": "/stankin-info/precache-manifest.aa406da00ea1f5987c19555634706737.js",
     "service-worker.js": "/stankin-info/service-worker.js",
     "static/css/2.c726b981.chunk.css.map": "/stankin-info/static/css/2.c726b981.chunk.css.map",
-    "static/css/main.0f9d1594.chunk.css.map": "/stankin-info/static/css/main.0f9d1594.chunk.css.map",
-    "static/js/2.15faea48.chunk.js.LICENSE": "/stankin-info/static/js/2.15faea48.chunk.js.LICENSE",
+    "static/css/main.7e62e8c8.chunk.css.map": "/stankin-info/static/css/main.7e62e8c8.chunk.css.map",
+    "static/js/2.2300f98e.chunk.js.LICENSE": "/stankin-info/static/js/2.2300f98e.chunk.js.LICENSE",
+    "static/media/Balagansky.png": "/stankin-info/static/media/Balagansky.c4307612.png",
+    "static/media/Ermakov.png": "/stankin-info/static/media/Ermakov.76811e76.png",
+    "static/media/Kirsakova.png": "/stankin-info/static/media/Kirsakova.8c2cfcd5.png",
+    "static/media/Kolyachenko.png": "/stankin-info/static/media/Kolyachenko.c4437e67.png",
+    "static/media/Materikin.png": "/stankin-info/static/media/Materikin.50a6a089.png",
+    "static/media/Muslimov.png": "/stankin-info/static/media/Muslimov.78222f7a.png",
+    "static/media/Nikonorov.png": "/stankin-info/static/media/Nikonorov.afc58abc.png",
     "static/media/app-store-badge.svg": "/stankin-info/static/media/app-store-badge.3f853e84.svg",
     "static/media/calendarColored.svg": "/stankin-info/static/media/calendarColored.98502513.svg",
     "static/media/google-play-badge.svg": "/stankin-info/static/media/google-play-badge.ed4d7915.svg",
@@ -31,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.e55e4234.js",
     "static/css/2.c726b981.chunk.css",
-    "static/js/2.15faea48.chunk.js",
-    "static/css/main.0f9d1594.chunk.css",
-    "static/js/main.5e1488a1.chunk.js"
+    "static/js/2.2300f98e.chunk.js",
+    "static/css/main.7e62e8c8.chunk.css",
+    "static/js/main.b072ad6a.chunk.js"
   ]
 }

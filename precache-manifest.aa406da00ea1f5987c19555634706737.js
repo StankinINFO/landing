@@ -1,31 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40b4afa20e52e0dc51cdc8e4684cf4eb",
+    "revision": "ba3434ac31e61aef8657f1581c0b6893",
     "url": "/stankin-info/index.html"
   },
   {
-    "revision": "43586d783163b9da0c54",
+    "revision": "da93bed163e00bd01f6b",
     "url": "/stankin-info/static/css/2.c726b981.chunk.css"
   },
   {
-    "revision": "86fece15d54fc4f4009e",
-    "url": "/stankin-info/static/css/main.0f9d1594.chunk.css"
+    "revision": "112fe9971891a4c124ab",
+    "url": "/stankin-info/static/css/main.7e62e8c8.chunk.css"
   },
   {
-    "revision": "43586d783163b9da0c54",
-    "url": "/stankin-info/static/js/2.15faea48.chunk.js"
+    "revision": "da93bed163e00bd01f6b",
+    "url": "/stankin-info/static/js/2.2300f98e.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "/stankin-info/static/js/2.15faea48.chunk.js.LICENSE"
+    "url": "/stankin-info/static/js/2.2300f98e.chunk.js.LICENSE"
   },
   {
-    "revision": "86fece15d54fc4f4009e",
-    "url": "/stankin-info/static/js/main.5e1488a1.chunk.js"
+    "revision": "112fe9971891a4c124ab",
+    "url": "/stankin-info/static/js/main.b072ad6a.chunk.js"
   },
   {
     "revision": "46dd4751ea55af250df6",
     "url": "/stankin-info/static/js/runtime-main.e55e4234.js"
+  },
+  {
+    "revision": "c430761271029cc913ce738bf8cba0fd",
+    "url": "/stankin-info/static/media/Balagansky.c4307612.png"
+  },
+  {
+    "revision": "76811e76861f8144a18efa15f694efc7",
+    "url": "/stankin-info/static/media/Ermakov.76811e76.png"
+  },
+  {
+    "revision": "8c2cfcd57a28ae4a17f986739716c072",
+    "url": "/stankin-info/static/media/Kirsakova.8c2cfcd5.png"
+  },
+  {
+    "revision": "c4437e67e7e3003dbd07f38b7748e6ff",
+    "url": "/stankin-info/static/media/Kolyachenko.c4437e67.png"
+  },
+  {
+    "revision": "50a6a089eb1bf18d8d00138b9ba32d62",
+    "url": "/stankin-info/static/media/Materikin.50a6a089.png"
+  },
+  {
+    "revision": "78222f7aca2756320a2e449b24262657",
+    "url": "/stankin-info/static/media/Muslimov.78222f7a.png"
+  },
+  {
+    "revision": "afc58abc131775e2da9e0ba37407a5b6",
+    "url": "/stankin-info/static/media/Nikonorov.afc58abc.png"
   },
   {
     "revision": "3f853e844bf6e40144a28f27d6c2b375",
