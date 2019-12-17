@@ -1,10 +1,9 @@
 import React from 'react';
-import {Typography, Empty} from 'antd'
+import {Empty} from 'antd'
 import AboutSection from "../AboutSection/AboutSection";
-import './ContentSection.css';
 import FeatureSection from "../FeatureSection/FeatureSection";
-
-const {Title} = Typography
+import AuthorsSection from "../AuthorsSection/AuthorsSection";
+import './ContentSection.css';
 
 export default class ContentSection extends React.Component {
 
@@ -24,6 +23,7 @@ export default class ContentSection extends React.Component {
                 }>
                     <Empty description={<span>Скоро тут будет ещё один раздел</span>}/>
                 </div>
+                <AuthorsSection/>
             </div>
         );
     }

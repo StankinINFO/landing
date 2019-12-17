@@ -1,42 +1,7 @@
 import React, {Component} from 'react'
-import {Avatar} from 'antd'
 import './FooterSection.css'
-
 import stankinWhiteLogo from '../../../static/img/stankinWhiteLogo.png'
 
-
-const authorsImages = [
-    {
-        name: 'Василий Материкин',
-        role: 'Тимлид',
-        img: '',
-    },
-    {
-        name: 'Данияр Муслимов',
-        role: 'Аналитик',
-        img: '',
-    },
-    {
-        name: 'Александр Ермаков',
-        role: 'Scrum-мастер',
-        img: '',
-    },
-    {
-        name: 'Василий Материкин',
-        role: 'Тимлид',
-        img: '',
-    },
-    {
-        name: 'Данияр Муслимов',
-        role: 'Аналитик',
-        img: '',
-    },
-    {
-        name: 'Александр Ермаков',
-        role: 'Scrum-мастер',
-        img: '',
-    },
-]
 
 export default class FooterSection extends Component {
     render() {

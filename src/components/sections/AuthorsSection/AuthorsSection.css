@@ -1,0 +1,145 @@
+div.authorsMainSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    min-height: 400px;
+    padding: 1rem 0;
+    background: #3940b3;
+}
+
+div.authors {
+    display: flex;
+    max-width: 1200px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.authors > span {
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 34pt;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+div.authors > span > span {
+    font-weight: bold;
+}
+
+div.authors > div.authorsGroup {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+div.authorsGroup > div.authorInfo {
+    width: 300px;
+    height: 120px;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+div.authorsGroup > div.authorInfo > div {
+    height: 100%;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+
+span.ant-avatar {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+}
+
+.ant-avatar.ant-avatar-icon {
+    font-size: 45px!important;
+}
+
+div.authorsGroup > div.authorInfo > div > span {
+    color: white;
+    text-align: left;
+}
+
+div.authorsGroup > div.authorInfo > div > span.authorName {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+@media (max-width: 1300px) {
+    div.authors {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    div.authors {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 630px) {
+
+    div.authors {
+        max-width: 400px;
+    }
+
+    span.ant-avatar {
+        width: 64px;
+        height: 64px;
+        line-height: 64px;
+        margin-bottom: 7px;
+    }
+
+    .ant-avatar.ant-avatar-icon {
+        font-size: 32px!important;
+    }
+
+    div.authorsGroup > div.authorInfo {
+        flex-direction: column;
+        width: 190px;
+        height: 138px;
+    }
+
+    div.authorsGroup > div.authorInfo > div {
+        width: 175px;
+        height: 60px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    div.authorsGroup > div.authorInfo > div > span {
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px) {
+    div.authors {
+        max-width: 260px;
+    }
+
+    div.authorsGroup > div.authorInfo {
+        flex-direction: column;
+        width: 130px;
+        height: 160px;
+    }
+
+    div.authorsGroup > div.authorInfo > div {
+        height: 86px;
+    }
+
+    div.authorsGroup > div.authorInfo > div > span {
+        max-width: 110px;
+    }
+}
