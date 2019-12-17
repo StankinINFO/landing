@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba3434ac31e61aef8657f1581c0b6893",
+    "revision": "80326b10f953229b60c32e682fb000e0",
     "url": "/stankin-info/index.html"
   },
   {
-    "revision": "da93bed163e00bd01f6b",
+    "revision": "1ac8319c7e61c130866b",
     "url": "/stankin-info/static/css/2.c726b981.chunk.css"
   },
   {
-    "revision": "112fe9971891a4c124ab",
-    "url": "/stankin-info/static/css/main.7e62e8c8.chunk.css"
+    "revision": "26a3cd80070f8f2713f6",
+    "url": "/stankin-info/static/css/main.ac3c1644.chunk.css"
   },
   {
-    "revision": "da93bed163e00bd01f6b",
-    "url": "/stankin-info/static/js/2.2300f98e.chunk.js"
+    "revision": "1ac8319c7e61c130866b",
+    "url": "/stankin-info/static/js/2.efb210a8.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "/stankin-info/static/js/2.2300f98e.chunk.js.LICENSE"
+    "url": "/stankin-info/static/js/2.efb210a8.chunk.js.LICENSE"
   },
   {
-    "revision": "112fe9971891a4c124ab",
-    "url": "/stankin-info/static/js/main.b072ad6a.chunk.js"
+    "revision": "26a3cd80070f8f2713f6",
+    "url": "/stankin-info/static/js/main.12ea85a6.chunk.js"
   },
   {
     "revision": "46dd4751ea55af250df6",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stankin-info/static/media/hand2.0d881ca6.png"
   },
   {
+    "revision": "f9823c8ce2bb7930035cbf3103b0efa5",
+    "url": "/stankin-info/static/media/infoDisplay.f9823c8c.png"
+  },
+  {
     "revision": "030f450076c58277dfca90c1bd2ae461",
     "url": "/stankin-info/static/media/information.030f4500.svg"
   },
@@ -80,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stankin-info/static/media/journal.b10e7af8.svg"
   },
   {
-    "revision": "2e1478b102f91afb670ea505d6b56ba1",
-    "url": "/stankin-info/static/media/modulesDisplay.2e1478b1.png"
+    "revision": "89e0c698644e102acc4e5adb3c77e492",
+    "url": "/stankin-info/static/media/modules.89e0c698.png"
   },
   {
     "revision": "d6c7d9ecb219233153f9a8e4388e36fa",
@@ -92,16 +96,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stankin-info/static/media/newIsometricColored.611d86c9.svg"
   },
   {
-    "revision": "7b92cd7fb260391529761bf541634404",
-    "url": "/stankin-info/static/media/newsDisplay.7b92cd7f.png"
+    "revision": "b72cafc484f871c471112e0b4bc556ee",
+    "url": "/stankin-info/static/media/news.b72cafc4.png"
   },
   {
     "revision": "faf37b5e689775fea686d832203aa91e",
     "url": "/stankin-info/static/media/phoneFrame.faf37b5e.svg"
   },
   {
-    "revision": "345a86d56c68c42b6c0d4df670934a2b",
-    "url": "/stankin-info/static/media/stankinLogo.345a86d5.png"
+    "revision": "635e820f8cbd9e90efcc3765975c61ff",
+    "url": "/stankin-info/static/media/schedule.635e820f.png"
+  },
+  {
+    "revision": "1161b44a8b7b26b4bc1bbd67026671c3",
+    "url": "/stankin-info/static/media/stankinInfoXL.1161b44a.png"
   },
   {
     "revision": "13759ec5c7ad4a97a25ceb28707c6d67",
