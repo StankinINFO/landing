@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Layout } from 'antd'
+import MenuSection from "./components/sections/MenuSectionn/MenuSection";
+import ContentSection from "./components/sections/ContentSection/ContentSection";
+import FooterSection from "./components/sections/FooterSection/FooterSection";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const { Header, Content, Footer } = Layout
+
+class App extends React.Component {
+
+    render() {
+        return (
+            <div className="App">
+                <Layout>
+                    <MenuSection/>
+                    <Content>
+                        <ContentSection/>
+                    </Content>
+                    {/*<Footer>*/}
+                        <FooterSection/>
+                    {/*</Footer>*/}
+                </Layout>
+            </div>
+        );
+    }
 }
 
 export default App;

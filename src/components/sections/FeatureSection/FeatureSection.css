@@ -1,0 +1,10 @@
+div#featureSectionMainContainer {
+    margin-top: 3rem;
+}
+
+#featureSectionTitle {
+    color: #11116e;
+    font-size: 34pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}

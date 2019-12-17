@@ -1,0 +1,101 @@
+div.aboutSectionMainContainer {
+    padding-top: 3em;
+    background-color: #3d82e3;
+}
+
+.aboutSectionTitle {
+    color: white;
+    font-size: 34pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span.aboutTitleBold {
+    font-weight: bold;
+}
+
+div.handContainer {
+    width: 40%;
+}
+
+div.handContainer img#handImage {
+    height: 40em;
+    margin-top: 1rem;
+}
+
+div.descriptionMainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+div.appDescriptionContainer {
+    width: 40%;
+    height: 100%;
+    text-align: left;
+}
+
+div.appDescriptionContainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+div#appDescriptionText {
+    width: 80%;
+}
+
+div.appDescriptionContainer div#storeBadgesContainer {
+    width: 100%;
+    margin-top: 45px;
+}
+
+div.appDescriptionContainer div#storeBadgesContainer  img {
+    display: inline;
+    width: 12rem;
+    margin: 1rem 1rem 1rem 0;
+    transition: 0.2s;
+}
+
+div.appDescriptionContainer div#storeBadgesContainer  img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 800px) {
+    div.handContainer {
+        display: none;
+    }
+
+    div.appDescriptionContainer {
+        width: 70%;
+        text-align: center;
+    }
+
+    div.appDescriptionContainer > div {
+        align-items: center;
+    }
+}
+
+@media (max-width: 570px) {
+    div.appDescriptionContainer {
+        width: 85%;
+    }
+
+    div.appDescriptionContainer div#storeBadgesContainer {
+        margin: 2em 0;
+    }
+
+    h3.ant-typography {
+        margin: 2.1rem 0!important;
+    }
+}
+
+@media (max-width: 380px) {
+    div.appDescriptionContainer {
+        width: 90%;
+    }
+
+    div.appDescriptionContainer div#storeBadgesContainer img {
+        width: 9rem;
+        margin: 0.5rem 0.5rem;
+    }
+}

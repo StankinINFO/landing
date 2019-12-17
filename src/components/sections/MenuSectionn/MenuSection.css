@@ -1,0 +1,75 @@
+div#headerMainContainer {
+    width: 100%;
+    height: 5.3rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.col-3 {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+
+.col-4 {
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+}
+
+div.stankinLogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.stankinLogo {
+    width: 7rem;
+}
+
+div.menuItems {
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div#menuLocaleSeparator {
+    display: inline-block;
+    height: 60%;
+    width: 1px;
+    background: blue;
+    margin-right: 1.3rem;
+}
+
+span.localeBadge {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 3.5rem;
+    font-size: 1.3rem;
+    transition: 0.2s linear;
+}
+
+span.localeBadge:hover {
+    cursor: pointer;
+    color: #3d82e3;
+}
+
+@media (max-width: 900px) {
+    span.localeBadge {
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    span.localeBadge {
+        margin-right: 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    div#menuLocaleSeparator {
+        height: 48%;
+        margin-right: 0.8rem;
+    }
+}
