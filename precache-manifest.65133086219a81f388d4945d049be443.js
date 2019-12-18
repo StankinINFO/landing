@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c024bd72bb6704559abc9be27de09ca",
+    "revision": "eb6145e82b7c1821c0d7d7bc2495bf26",
     "url": "/stankin-info/index.html"
   },
   {
-    "revision": "1ac8319c7e61c130866b",
+    "revision": "db04011fa68768157604",
     "url": "/stankin-info/static/css/2.c726b981.chunk.css"
   },
   {
-    "revision": "cd13cebed66116d082f0",
-    "url": "/stankin-info/static/css/main.150525ff.chunk.css"
+    "revision": "45f4709450e5f0925dd9",
+    "url": "/stankin-info/static/css/main.1e375ba6.chunk.css"
   },
   {
-    "revision": "1ac8319c7e61c130866b",
-    "url": "/stankin-info/static/js/2.efb210a8.chunk.js"
+    "revision": "db04011fa68768157604",
+    "url": "/stankin-info/static/js/2.9ed19bb0.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "/stankin-info/static/js/2.efb210a8.chunk.js.LICENSE"
+    "url": "/stankin-info/static/js/2.9ed19bb0.chunk.js.LICENSE"
   },
   {
-    "revision": "cd13cebed66116d082f0",
-    "url": "/stankin-info/static/js/main.8493a3d6.chunk.js"
+    "revision": "45f4709450e5f0925dd9",
+    "url": "/stankin-info/static/js/main.31e4f765.chunk.js"
   },
   {
     "revision": "46dd4751ea55af250df6",
@@ -60,10 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stankin-info/static/media/app-store-badge.3f853e84.svg"
   },
   {
-    "revision": "98502513efa1c2d90ddee7a54133aa3c",
-    "url": "/stankin-info/static/media/calendarColored.98502513.svg"
-  },
-  {
     "revision": "ed4d79156515ddd2fc99d71c157fab6a",
     "url": "/stankin-info/static/media/google-play-badge.ed4d7915.svg"
   },
@@ -76,24 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stankin-info/static/media/infoDisplay.f9823c8c.png"
   },
   {
-    "revision": "030f450076c58277dfca90c1bd2ae461",
-    "url": "/stankin-info/static/media/information.030f4500.svg"
-  },
-  {
-    "revision": "b10e7af8eb27325e9beeaab129c0c7d6",
-    "url": "/stankin-info/static/media/journal.b10e7af8.svg"
-  },
-  {
     "revision": "89e0c698644e102acc4e5adb3c77e492",
     "url": "/stankin-info/static/media/modules.89e0c698.png"
   },
   {
-    "revision": "d6c7d9ecb219233153f9a8e4388e36fa",
-    "url": "/stankin-info/static/media/newIsometric.d6c7d9ec.svg"
+    "revision": "8dbc9a148880303d69d4b0e70fd4651b",
+    "url": "/stankin-info/static/media/modules.8dbc9a14.png"
   },
   {
-    "revision": "611d86c90ead2fbd4dcc3f916e906967",
-    "url": "/stankin-info/static/media/newIsometricColored.611d86c9.svg"
+    "revision": "8a6b026a5f35a6d692db59dc1e8d2336",
+    "url": "/stankin-info/static/media/news.8a6b026a.png"
   },
   {
     "revision": "b72cafc484f871c471112e0b4bc556ee",
@@ -102,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faf37b5e689775fea686d832203aa91e",
     "url": "/stankin-info/static/media/phoneFrame.faf37b5e.svg"
+  },
+  {
+    "revision": "1e13b322884912c234bc07ed2c47b54b",
+    "url": "/stankin-info/static/media/schedule.1e13b322.png"
   },
   {
     "revision": "635e820f8cbd9e90efcc3765975c61ff",
