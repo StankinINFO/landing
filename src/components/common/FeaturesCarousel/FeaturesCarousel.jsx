@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Carousel} from "antd";
-import IconsGroup from "../IconsGroup/IconsGroup";
 import './FeaturesCarousel.css'
 
 
@@ -8,7 +7,7 @@ export default class FeaturesCarousel extends Component {
 
     constructor(props) {
         super(props)
-        this.slider = React.createRef()
+        this.sliderIcon = React.createRef()
     }
 
     handleIconSelect = (id) => {
@@ -22,28 +21,32 @@ export default class FeaturesCarousel extends Component {
         onSelectHandle(currentSlideName)
     }
 
+    handleSlideBeforeChange = () => {
+        this.sliderIcon.current.className = 'sliderIcon fadeOut'
+    }
+
+    handleSlideAfterChange = (numb) => {
+        this.sliderIcon.current.className = 'sliderIcon'
+        this.props.onSelectHandle(numb)
+    }
+
     render() {
 
         const { slides, current } = this.props
-
-        let currentSlide = slides.findIndex( slide => slide.name === current )
-        currentSlide = currentSlide !== -1 ? currentSlide : 0
+        const currentSlide = slides[current]
 
         return (
             <div>
-                <IconsGroup
-                    onSelectHandle={this.handleIconSelect}
-                    current={currentSlide}
+                <div className="sliderIconContainer">
+                    <img className="sliderIcon" ref={ this.sliderIcon } src={currentSlide.icon} />
+                </div>
+                <Carousel
+                    dots={true}
+                    dotPosition="top"
+                    autoplay
+                    beforeChange={this.handleSlideBeforeChange}
+                    afterChange={this.handleSlideAfterChange}
                 >
-                    {
-                        slides.map((slide, i) => (
-                            <img id={i} className="sliderIcon" src={slide.icon} />
-                        ))
-                    }
-                </IconsGroup>
-                <div id="prevButton"/>
-                <div id="nextButton"/>
-                <Carousel dots={true} dotPosition="top" ref={ this.slider }>
                     {
                         slides.map(slide => {
 
