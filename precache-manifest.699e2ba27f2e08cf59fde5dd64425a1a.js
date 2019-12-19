@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb6145e82b7c1821c0d7d7bc2495bf26",
+    "revision": "b53b726ea26fd7962c7601eababdadae",
     "url": "/stankin-info/index.html"
   },
   {
-    "revision": "db04011fa68768157604",
+    "revision": "9a3ccfd8860aa3a2d81b",
     "url": "/stankin-info/static/css/2.c726b981.chunk.css"
   },
   {
-    "revision": "45f4709450e5f0925dd9",
-    "url": "/stankin-info/static/css/main.1e375ba6.chunk.css"
+    "revision": "f2d574058fa55c6cb4f3",
+    "url": "/stankin-info/static/css/main.e8dc9039.chunk.css"
   },
   {
-    "revision": "db04011fa68768157604",
-    "url": "/stankin-info/static/js/2.9ed19bb0.chunk.js"
+    "revision": "9a3ccfd8860aa3a2d81b",
+    "url": "/stankin-info/static/js/2.acf89a30.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "/stankin-info/static/js/2.9ed19bb0.chunk.js.LICENSE"
+    "url": "/stankin-info/static/js/2.acf89a30.chunk.js.LICENSE"
   },
   {
-    "revision": "45f4709450e5f0925dd9",
-    "url": "/stankin-info/static/js/main.31e4f765.chunk.js"
+    "revision": "f2d574058fa55c6cb4f3",
+    "url": "/stankin-info/static/js/main.5aee53a4.chunk.js"
   },
   {
     "revision": "46dd4751ea55af250df6",
@@ -60,12 +60,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stankin-info/static/media/app-store-badge.3f853e84.svg"
   },
   {
+    "revision": "911f0233faccf5c5a9d3fff4eec76c90",
+    "url": "/stankin-info/static/media/extendInfo.911f0233.jpg"
+  },
+  {
     "revision": "ed4d79156515ddd2fc99d71c157fab6a",
     "url": "/stankin-info/static/media/google-play-badge.ed4d7915.svg"
   },
   {
     "revision": "0d881ca6177fd4e84aa54ded8370b665",
     "url": "/stankin-info/static/media/hand2.0d881ca6.png"
+  },
+  {
+    "revision": "b055e54f141906534ba20eb05cdab6d6",
+    "url": "/stankin-info/static/media/info.b055e54f.png"
   },
   {
     "revision": "f9823c8ce2bb7930035cbf3103b0efa5",
@@ -88,8 +96,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stankin-info/static/media/news.b72cafc4.png"
   },
   {
+    "revision": "9007182b544c1b5dd0a3158e806b228a",
+    "url": "/stankin-info/static/media/notifications.9007182b.png"
+  },
+  {
+    "revision": "cc5baca7fe1c900a51264da3e333fbfc",
+    "url": "/stankin-info/static/media/offline.cc5baca7.jpg"
+  },
+  {
     "revision": "faf37b5e689775fea686d832203aa91e",
     "url": "/stankin-info/static/media/phoneFrame.faf37b5e.svg"
+  },
+  {
+    "revision": "13883cbc53a3c17341fd23f99f5cc85b",
+    "url": "/stankin-info/static/media/schedule.13883cbc.jpg"
   },
   {
     "revision": "1e13b322884912c234bc07ed2c47b54b",
