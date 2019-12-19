@@ -91,12 +91,12 @@ div.slideContainer > span {
     }
 
     .sliderIconContainer {
-        width: 9rem;
-        height: 9rem;
+        width: 13rem;
+        height: 13rem;
     }
 
     .sliderIcon {
-        width: 9rem;
+        width: 13rem;
     }
 
     div.selectedIcon {
@@ -129,11 +129,11 @@ div.slideContainer > span {
     }
 
     .sliderIconContainer {
-        width: 7rem;
-        height: 7rem;
+        width: 11rem;
+        height: 11rem;
     }
 
     .sliderIcon {
-        width: 7rem;
+        width: 11rem;
     }
 }
