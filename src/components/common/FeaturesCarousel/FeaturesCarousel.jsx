@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Carousel} from "antd";
 import './FeaturesCarousel.css'
 
+const sliderTiming = 4000
 
 export default class FeaturesCarousel extends Component {
 
@@ -16,7 +17,7 @@ export default class FeaturesCarousel extends Component {
     }
 
     componentDidMount() {
-        const timeoutId = setTimeout(() => this.slider.current.next(), 5000)
+        const timeoutId = setTimeout(() => this.slider.current.next(), sliderTiming)
         this.setState({
             ...this.state,
             timeoutId
@@ -52,7 +53,7 @@ export default class FeaturesCarousel extends Component {
 
     restartSliderAutoPlay = () => {
         clearTimeout(this.state.timeoutId)
-        const timeoutId = setTimeout(() => this.slider.current.next(), 5000)
+        const timeoutId = setTimeout(() => this.slider.current.next(), sliderTiming)
         this.setState({
             ...this.state,
             timeoutId

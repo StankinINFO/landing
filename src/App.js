@@ -5,7 +5,7 @@ import ContentSection from "./components/sections/ContentSection/ContentSection"
 import FooterSection from "./components/sections/FooterSection/FooterSection";
 import './App.css';
 
-const { Header, Content, Footer } = Layout
+const { Content } = Layout
 
 class App extends React.Component {
 
@@ -17,9 +17,7 @@ class App extends React.Component {
                     <Content>
                         <ContentSection/>
                     </Content>
-                    {/*<Footer>*/}
-                        <FooterSection/>
-                    {/*</Footer>*/}
+                    <FooterSection/>
                 </Layout>
             </div>
         );
