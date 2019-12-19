@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import {Typography} from "antd";
+import connect from "react-redux/es/connect/connect"
+import {selectLocale} from "../../../store/selectors/common"
+import { localization } from '../../../constants/locale'
 import FeaturesCarousel from "../../common/FeaturesCarousel/FeaturesCarousel";
 import './FeatureSection.css'
 
@@ -15,34 +18,8 @@ import infoDisplay from '../../../static/img/appDisplays/infoDisplay.png'
 
 
 const {Title} = Typography
-const slides = [
-    {
-        name: 'schedule',
-        text: 'Знать расписание на любой день, название предмета, время и место занятия.',
-        icon: scheduleIcon,
-        formImage: scheduleDisplay,
-    },
-    {
-        name: 'modules',
-        text: 'Получать полную информацию о модулях за всё время обучения. Оценки за модули, зачёты, экзамены.',
-        icon: modulesIcon,
-        formImage: modulesDisplay,
-    },
-    {
-        name: 'news',
-        text: 'Быть в курсе последних новостей университета и деканата. Читать о них коротко или подробно.',
-        icon: newsIcon,
-        formImage: newsDisplay,
-    },
-    {
-        name: 'information',
-        text: 'Иметь под рукой самую важную информацию об университете.',
-        icon: informationIcon,
-        formImage: infoDisplay,
-    },
-]
 
-export default class FeatureSection extends Component {
+class FeatureSection extends Component {
 
     state = {
         selectedIcon: 0
@@ -57,12 +34,41 @@ export default class FeatureSection extends Component {
 
     render() {
 
+        const text = localization[this.props.locale].featureSectionText
+
+        const slides = [
+            {
+                name: 'schedule',
+                text: text.scheduleSlideText,
+                icon: scheduleIcon,
+                formImage: scheduleDisplay,
+            },
+            {
+                name: 'modules',
+                text: text.modulesSlideText,
+                icon: modulesIcon,
+                formImage: modulesDisplay,
+            },
+            {
+                name: 'news',
+                text: text.newsSlideText,
+                icon: newsIcon,
+                formImage: newsDisplay,
+            },
+            {
+                name: 'information',
+                text: text.infoSlideText,
+                icon: informationIcon,
+                formImage: infoDisplay,
+            },
+        ]
+
         const {selectedIcon} = this.state
 
         return (
             <div id="featureSectionMainContainer">
                 <div id="featureSectionTitle">
-                    <Title id="featureSectionTitle">Теперь ты можешь <span className="bold">ВСЁ</span></Title>
+                    <Title id="featureSectionTitle">{text.featureSectionTitle0}<span className="bold">{text.featureSectionTitle1}</span></Title>
                 </div>
                 <div>
                     <FeaturesCarousel
@@ -75,3 +81,9 @@ export default class FeatureSection extends Component {
         )
     }
 }
+
+const mapStateToProps = (state) => ({
+    locale: selectLocale(state)
+})
+
+export default connect(mapStateToProps, null)(FeatureSection)

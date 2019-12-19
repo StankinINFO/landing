@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
-import {Row, Col, Typography} from 'antd'
+import {Typography} from 'antd'
+import connect from "react-redux/es/connect/connect"
+import {selectLocale} from "../../../store/selectors/common"
+import { localization } from '../../../constants/locale'
 import './AboutSection.css'
 import handImage from '../../../static/img/hand2.png'
 import googlePlayBadge from '../../../static/img/google-play-badge.svg'
@@ -8,13 +11,14 @@ import appStoreBadge from '../../../static/img/app-store-badge.svg'
 
 const {Title, Text} = Typography
 
-export default class AboutSection extends Component {
+class AboutSection extends Component {
     render() {
+        const text = localization[this.props.locale].aboutSectionText
         return (
             <div className="aboutSectionMainContainer">
                 <div>
-                    <Title class="aboutSectionTitle">Станкин в <span
-                        className="aboutTitleBold">ТВОИХ</span> руках!</Title>
+                    <Title class="aboutSectionTitle">{text.aboutSectionTitle0}<span
+                        className="aboutTitleBold">{text.aboutSectionTitle1}</span>{text.aboutSectionTitle2}</Title>
                 </div>
                 <div className="descriptionMainContainer">
                     <div className="handContainer">
@@ -22,9 +26,9 @@ export default class AboutSection extends Component {
                     </div>
                     <div className="appDescriptionContainer">
                         <div>
-                            <Title level={3} style={{color: "white", margin: "50px 0"}}>Вся информация о ТВОЁМ университете</Title>
+                            <Title level={3} style={{color: "white", margin: "50px 0"}}>{text.appDescriptionTitle}</Title>
                             <div id="appDescriptionText">
-                                <Text style={{color: "white", fontSize: "1.2rem"}} >Соберите всю информацию о своём университете в смартфоне. Сделайте своё обучение удобнее и тратье больше времени на получение настоящих знаний.</Text>
+                                <Text style={{color: "white", fontSize: "1.2rem"}} >{text.appDescriptionText}</Text>
                             </div>
                             <div id="storeBadgesContainer">
                                 <img src={googlePlayBadge}/>
@@ -37,3 +41,9 @@ export default class AboutSection extends Component {
         )
     }
 }
+
+const mapStateToProps = (state) => ({
+    locale: selectLocale(state)
+})
+
+export default connect(mapStateToProps, null)(AboutSection)

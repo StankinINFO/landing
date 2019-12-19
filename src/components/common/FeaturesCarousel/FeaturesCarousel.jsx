@@ -11,7 +11,16 @@ export default class FeaturesCarousel extends Component {
         this.sliderIcon = React.createRef()
         this.state = {
             touchStartX: null,
+            intervalId: null,
         }
+    }
+
+    componentDidMount() {
+        const timeoutId = setTimeout(() => this.slider.current.next(), 5000)
+        this.setState({
+            ...this.state,
+            timeoutId
+        })
     }
 
     handleSlideBeforeChange = () => {
@@ -21,6 +30,7 @@ export default class FeaturesCarousel extends Component {
     handleSlideAfterChange = (numb) => {
         this.props.onSelectHandle(numb)
         this.sliderIcon.current.className = 'sliderIcon'
+        this.restartSliderAutoPlay()
     }
 
     handleOnTouchStart = (e) => {
@@ -38,6 +48,15 @@ export default class FeaturesCarousel extends Component {
         } else if (touchEndX < touchStartX) {
             this.slider.current.next()
         }
+    }
+
+    restartSliderAutoPlay = () => {
+        clearTimeout(this.state.timeoutId)
+        const timeoutId = setTimeout(() => this.slider.current.next(), 5000)
+        this.setState({
+            ...this.state,
+            timeoutId
+        })
     }
 
     render() {
@@ -59,7 +78,6 @@ export default class FeaturesCarousel extends Component {
                 <Carousel
                     dots={true}
                     dotPosition="top"
-                    autoplay
                     beforeChange={this.handleSlideBeforeChange}
                     afterChange={this.handleSlideAfterChange}
                     ref={ this.slider }

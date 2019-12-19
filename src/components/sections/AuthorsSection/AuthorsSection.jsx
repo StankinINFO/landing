@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import {Avatar} from 'antd'
+import connect from "react-redux/es/connect/connect"
+import {selectLocale} from "../../../store/selectors/common"
+import { localization } from '../../../constants/locale'
 import './AuthorsSection.css'
 
 import matericin from '../../../static/img/avatars/Materikin.png'
@@ -10,50 +13,54 @@ import kolyachenko from '../../../static/img/avatars/Kolyachenko.png'
 import kirsakova from '../../../static/img/avatars/Kirsakova.png'
 import nikonorov from '../../../static/img/avatars/Nikonorov.png'
 
-const authors = [
-    {
-        name: 'Василий Материкин',
-        role: 'Руководитель, программист',
-        img: matericin,
-    },
-    {
-        name: 'Данияр Муслимов',
-        role: 'Scrum-master, аналитик',
-        img: muslimov,
-    },
-    {
-        name: 'Ксения Кирсакова',
-        role: ' Дизайнер',
-        img: kirsakova,
-    },
-    {
-        name: 'Александр Ермаков',
-        role: 'Программист',
-        img: ermakov,
-    },
-    {
-        name: ' Алексей Балаганский',
-        role: 'Программист',
-        img: balagansky,
-    },
-    {
-        name: 'Максим Коляченко',
-        role: 'Программист',
-        img: kolyachenko,
-    },
-    {
-        name: 'Даниил Никоноров',
-        role: 'Программист',
-        img: nikonorov,
-    },
-]
 
-export default class AuthorsSection extends Component {
+class AuthorsSection extends Component {
     render() {
+
+        const text = localization[this.props.locale].authorsSectionText
+
+        const authors = [
+            {
+                name: text.matericin,
+                role: `${text.teamLead}, ${text.programmer}`,
+                img: matericin,
+            },
+            {
+                name: text.muslimov,
+                role: `${text.scrumMaster}, ${text.analyst}`,
+                img: muslimov,
+            },
+            {
+                name: text.kirsakova,
+                role: text.designer,
+                img: kirsakova,
+            },
+            {
+                name: text.ermakov,
+                role: text.programmer,
+                img: ermakov,
+            },
+            {
+                name: text.balagansky,
+                role: text.programmer,
+                img: balagansky,
+            },
+            {
+                name: text.kolyachenko,
+                role: text.programmer,
+                img: kolyachenko,
+            },
+            {
+                name: text.nikonorov,
+                role: text.programmer,
+                img: nikonorov,
+            },
+        ]
+
         return (
             <div className="authorsMainSection">
                 <div className="authors">
-                    <span>Делают <span>ВСЁ</span> возможное</span>
+                    <span>{text.authorsSectionTitle0}<span>{text.authorsSectionTitle1}</span>{text.authorsSectionTitle2}</span>
                     <div className="authorsGroup">
                         {authors.map((author, i) => {
 
@@ -76,3 +83,9 @@ export default class AuthorsSection extends Component {
         );
     }
 }
+
+const mapStateToProps = (state) => ({
+    locale: selectLocale(state)
+})
+
+export default connect(mapStateToProps, null)(AuthorsSection)

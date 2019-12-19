@@ -77,6 +77,10 @@ div.authorsGroup > div.authorInfo > div > span.authorName {
     font-size: 11pt;
 }
 
+.authorRole::first-letter {
+    text-transform: uppercase;
+}
+
 @media (max-width: 1300px) {
     div.authors {
         max-width: 900px;
