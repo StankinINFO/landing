@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/landing/static/css/main.9d48c4aa.chunk.css",
-    "main.js": "/landing/static/js/main.5f145fa5.chunk.js",
-    "main.js.map": "/landing/static/js/main.5f145fa5.chunk.js.map",
+    "main.js": "/landing/static/js/main.33d8cf45.chunk.js",
+    "main.js.map": "/landing/static/js/main.33d8cf45.chunk.js.map",
     "runtime-main.js": "/landing/static/js/runtime-main.35f29940.js",
     "runtime-main.js.map": "/landing/static/js/runtime-main.35f29940.js.map",
     "static/css/2.c726b981.chunk.css": "/landing/static/css/2.c726b981.chunk.css",
-    "static/js/2.033e7003.chunk.js": "/landing/static/js/2.033e7003.chunk.js",
-    "static/js/2.033e7003.chunk.js.map": "/landing/static/js/2.033e7003.chunk.js.map",
+    "static/js/2.beed7c65.chunk.js": "/landing/static/js/2.beed7c65.chunk.js",
+    "static/js/2.beed7c65.chunk.js.map": "/landing/static/js/2.beed7c65.chunk.js.map",
     "index.html": "/landing/index.html",
-    "precache-manifest.ea33925e1370bf0f752dbd62d66b6f38.js": "/landing/precache-manifest.ea33925e1370bf0f752dbd62d66b6f38.js",
+    "precache-manifest.0fc3f73603fa82ff9c17211fa97d421c.js": "/landing/precache-manifest.0fc3f73603fa82ff9c17211fa97d421c.js",
     "service-worker.js": "/landing/service-worker.js",
     "static/css/2.c726b981.chunk.css.map": "/landing/static/css/2.c726b981.chunk.css.map",
     "static/css/main.9d48c4aa.chunk.css.map": "/landing/static/css/main.9d48c4aa.chunk.css.map",
-    "static/js/2.033e7003.chunk.js.LICENSE": "/landing/static/js/2.033e7003.chunk.js.LICENSE",
+    "static/js/2.beed7c65.chunk.js.LICENSE": "/landing/static/js/2.beed7c65.chunk.js.LICENSE",
     "static/media/Balagansky.png": "/landing/static/media/Balagansky.c4307612.png",
     "static/media/Ermakov.png": "/landing/static/media/Ermakov.76811e76.png",
     "static/media/Kirsakova.png": "/landing/static/media/Kirsakova.8c2cfcd5.png",
@@ -21,7 +21,7 @@
     "static/media/Materikin.png": "/landing/static/media/Materikin.50a6a089.png",
     "static/media/Muslimov.png": "/landing/static/media/Muslimov.78222f7a.png",
     "static/media/Nikonorov.png": "/landing/static/media/Nikonorov.afc58abc.png",
-    "static/media/app-store-badge.svg": "/landing/static/media/app-store-badge.3f853e84.svg",
+    "static/media/download-badge.png": "/landing/static/media/download-badge.32d03587.png",
     "static/media/extendInfo.jpg": "/landing/static/media/extendInfo.911f0233.jpg",
     "static/media/google-play-badge.svg": "/landing/static/media/google-play-badge.ed4d7915.svg",
     "static/media/hand2.png": "/landing/static/media/hand2.0d881ca6.png",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.35f29940.js",
     "static/css/2.c726b981.chunk.css",
-    "static/js/2.033e7003.chunk.js",
+    "static/js/2.beed7c65.chunk.js",
     "static/css/main.9d48c4aa.chunk.css",
-    "static/js/main.5f145fa5.chunk.js"
+    "static/js/main.33d8cf45.chunk.js"
   ]
 }

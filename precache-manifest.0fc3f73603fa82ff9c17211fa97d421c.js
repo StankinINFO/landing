@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52ed3b0be31adb525499aa3c79d2824f",
+    "revision": "2bb8d0b20f01c1d577b5bb376d4cce9c",
     "url": "/landing/index.html"
   },
   {
-    "revision": "286f642f0bc785f2451c",
+    "revision": "55889e36d02aa27dae9c",
     "url": "/landing/static/css/2.c726b981.chunk.css"
   },
   {
-    "revision": "b534fab1c2cc2fe2782e",
+    "revision": "f2da07b3d2796f566616",
     "url": "/landing/static/css/main.9d48c4aa.chunk.css"
   },
   {
-    "revision": "286f642f0bc785f2451c",
-    "url": "/landing/static/js/2.033e7003.chunk.js"
+    "revision": "55889e36d02aa27dae9c",
+    "url": "/landing/static/js/2.beed7c65.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/landing/static/js/2.033e7003.chunk.js.LICENSE"
+    "url": "/landing/static/js/2.beed7c65.chunk.js.LICENSE"
   },
   {
-    "revision": "b534fab1c2cc2fe2782e",
-    "url": "/landing/static/js/main.5f145fa5.chunk.js"
+    "revision": "f2da07b3d2796f566616",
+    "url": "/landing/static/js/main.33d8cf45.chunk.js"
   },
   {
     "revision": "abd1d0d1a96aa3edab06",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing/static/media/Nikonorov.afc58abc.png"
   },
   {
-    "revision": "3f853e844bf6e40144a28f27d6c2b375",
-    "url": "/landing/static/media/app-store-badge.3f853e84.svg"
+    "revision": "32d035873b82a3f3f00fcc3c966ce6ed",
+    "url": "/landing/static/media/download-badge.32d03587.png"
   },
   {
     "revision": "911f0233faccf5c5a9d3fff4eec76c90",
