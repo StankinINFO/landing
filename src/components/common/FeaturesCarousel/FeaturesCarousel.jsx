@@ -24,7 +24,6 @@ export default class FeaturesCarousel extends Component {
     }
 
     handleOnTouchStart = (e) => {
-        e.preventDefault()
         const touchStartX = e.changedTouches[0].screenX
         this.setState({
             touchStartX,
