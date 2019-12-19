@@ -24,7 +24,7 @@ export default class AboutSection extends Component {
                         <div>
                             <Title level={3} style={{color: "white", margin: "50px 0"}}>Вся информация о ТВОЁМ университете</Title>
                             <div id="appDescriptionText">
-                                <Text style={{color: "white", fontSize: "1.2rem"}} >Соберите всю информацию о своём университете в смартфоне. Сделайте своё обучение удобнеее и тратье больше времени на получение настоящих знаний.</Text>
+                                <Text style={{color: "white", fontSize: "1.2rem"}} >Соберите всю информацию о своём университете в смартфоне. Сделайте своё обучение удобнее и тратье больше времени на получение настоящих знаний.</Text>
                             </div>
                             <div id="storeBadgesContainer">
                                 <img src={googlePlayBadge}/>
