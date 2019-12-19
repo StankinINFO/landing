@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Carousel} from "antd";
-import IconsGroup from "../IconsGroup/IconsGroup";
 import './FeaturesCarousel.css'
 
 
@@ -9,41 +8,62 @@ export default class FeaturesCarousel extends Component {
     constructor(props) {
         super(props)
         this.slider = React.createRef()
+        this.sliderIcon = React.createRef()
+        this.state = {
+            touchStartX: null,
+        }
     }
 
-    handleIconSelect = (id) => {
-        const { onSelectHandle, slides } = this.props
+    handleSlideBeforeChange = () => {
+        this.sliderIcon.current.className = 'sliderIcon fadeOut'
+    }
 
-        const currentSlideNumb = Number(id)
-        const currentSlideName = slides[currentSlideNumb].name
+    handleSlideAfterChange = (numb) => {
+        this.props.onSelectHandle(numb)
+        this.sliderIcon.current.className = 'sliderIcon'
+    }
 
-        this.slider.current.goTo(currentSlideNumb)
+    handleOnTouchStart = (e) => {
+        const touchStartX = e.changedTouches[0].screenX
+        this.setState({
+            touchStartX,
+        })
+    }
 
-        onSelectHandle(currentSlideName)
+    handleOnTouchEnd = (e) => {
+        const touchEndX = e.changedTouches[0].screenX
+        const { touchStartX } = this.state
+        if (touchEndX > touchStartX) {
+            this.slider.current.prev()
+        } else if (touchEndX < touchStartX) {
+            this.slider.current.next()
+        }
     }
 
     render() {
 
         const { slides, current } = this.props
-
-        let currentSlide = slides.findIndex( slide => slide.name === current )
-        currentSlide = currentSlide !== -1 ? currentSlide : 0
+        const currentSlide = slides[current]
 
         return (
             <div>
-                <IconsGroup
-                    onSelectHandle={this.handleIconSelect}
-                    current={currentSlide}
+                <div className="sliderIconContainer">
+                    <img
+                        className="sliderIcon"
+                        ref={ this.sliderIcon }
+                        src={currentSlide.icon}
+                        onTouchStart={ this.handleOnTouchStart }
+                        onTouchEnd={ this.handleOnTouchEnd }
+                    />
+                </div>
+                <Carousel
+                    dots={true}
+                    dotPosition="top"
+                    autoplay
+                    beforeChange={this.handleSlideBeforeChange}
+                    afterChange={this.handleSlideAfterChange}
+                    ref={ this.slider }
                 >
-                    {
-                        slides.map((slide, i) => (
-                            <img id={i} className="sliderIcon" src={slide.icon} />
-                        ))
-                    }
-                </IconsGroup>
-                <div id="prevButton"/>
-                <div id="nextButton"/>
-                <Carousel dots={true} ref={ this.slider }>
                     {
                         slides.map(slide => {
 

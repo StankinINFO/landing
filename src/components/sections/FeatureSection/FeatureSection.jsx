@@ -3,11 +3,10 @@ import {Typography} from "antd";
 import FeaturesCarousel from "../../common/FeaturesCarousel/FeaturesCarousel";
 import './FeatureSection.css'
 
-import newsIsometricColored from '../../../static/img/newIsometricColored.svg'
-import newsIsometric from '../../../static/img/newIsometric.svg'
-import calendar from '../../../static/img/calendarColored.svg'
-import modules from '../../../static/img/journal.svg'
-import information from '../../../static/img/information.svg'
+import newsIcon from '../../../static/img/sliderIcons/news.png'
+import scheduleIcon from '../../../static/img/sliderIcons/schedule.png'
+import modulesIcon from '../../../static/img/sliderIcons/modules.png'
+import informationIcon from '../../../static/img/sliderIcons/info.png'
 
 import newsDisplay from '../../../static/img/appDisplays/news.png'
 import modulesDisplay from '../../../static/img/appDisplays/modules.png'
@@ -19,26 +18,26 @@ const {Title} = Typography
 const slides = [
     {
         name: 'schedule',
-        text: 'Узнавать расписание на любой день, вспоминать название предмета, имя преподавателя, время и место занятия.',
-        icon: calendar,
+        text: 'Знать расписание на любой день, название предмета, время и место занятия.',
+        icon: scheduleIcon,
         formImage: scheduleDisplay,
     },
     {
         name: 'modules',
         text: 'Получать полную информацию о модулях за всё время обучения. Оценки за модули, зачёты, экзамены.',
-        icon: modules,
+        icon: modulesIcon,
         formImage: modulesDisplay,
     },
     {
         name: 'news',
-        text: 'Узнавать о последних новостях университета. Читать о них коротко или подробно. Все новости или только новости деканата.',
-        icon: newsIsometricColored,
+        text: 'Быть в курсе последних новостей университета и деканата. Читать о них коротко или подробно.',
+        icon: newsIcon,
         formImage: newsDisplay,
     },
     {
         name: 'information',
-        text: 'Иметь быстрый доступ к самой важной информации университета.',
-        icon: information,
+        text: 'Иметь под рукой самую важную информацию об университете.',
+        icon: informationIcon,
         formImage: infoDisplay,
     },
 ]
@@ -46,7 +45,7 @@ const slides = [
 export default class FeatureSection extends Component {
 
     state = {
-        selectedIcon: 'calendar'
+        selectedIcon: 0
     }
 
     iconOnSelectHandler = (id) => {

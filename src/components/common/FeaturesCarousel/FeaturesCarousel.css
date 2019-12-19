@@ -1,5 +1,38 @@
+.sliderIconContainer {
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+}
+
 .sliderIcon {
-    width: 6rem;
+    width: 15rem;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.sliderIcon.fadeOut {
+    animation-duration: 0.5s;
+    animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
 
 .circleIcon {
@@ -8,7 +41,15 @@
 }
 
 .ant-carousel .slick-slide {
-    height: 543px!important;
+    height: 577px!important;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+    background: #3d81e3!important;
+}
+
+.ant-carousel .slick-dots li button {
+    background: #3d81e3!important;
 }
 
 .slideContainer {
@@ -21,6 +62,7 @@ div.slideContainer > span {
     color: #11116e;
     font-size: 1.2rem;
     max-width: 95%;
+    height: 90px;
 }
 
 .phoneFrameImage {
@@ -48,8 +90,13 @@ div.slideContainer > span {
         margin: 2.5rem 2rem;
     }
 
+    .sliderIconContainer {
+        width: 13rem;
+        height: 13rem;
+    }
+
     .sliderIcon {
-        width: 5rem;
+        width: 13rem;
     }
 
     div.selectedIcon {
@@ -64,6 +111,16 @@ div.slideContainer > span {
     .slideContainer {
         margin-top: 5px;
     }
+
+    .ant-carousel .slick-slide {
+        height: 590px!important;
+    }
+
+    .slideContainer > span {
+        margin-top: 20px;
+        height: 110px!important;
+        max-width: 300px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -71,7 +128,12 @@ div.slideContainer > span {
         margin: 2.5rem 1.5rem;
     }
 
+    .sliderIconContainer {
+        width: 11rem;
+        height: 11rem;
+    }
+
     .sliderIcon {
-        width: 4rem;
+        width: 11rem;
     }
 }
