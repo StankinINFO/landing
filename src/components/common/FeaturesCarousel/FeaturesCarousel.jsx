@@ -26,8 +26,8 @@ export default class FeaturesCarousel extends Component {
     }
 
     handleSlideAfterChange = (numb) => {
-        this.sliderIcon.current.className = 'sliderIcon'
         this.props.onSelectHandle(numb)
+        this.sliderIcon.current.className = 'sliderIcon'
     }
 
     render() {
