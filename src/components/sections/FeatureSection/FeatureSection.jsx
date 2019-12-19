@@ -6,7 +6,7 @@ import './FeatureSection.css'
 import newsIcon from '../../../static/img/sliderIcons/news.png'
 import scheduleIcon from '../../../static/img/sliderIcons/schedule.png'
 import modulesIcon from '../../../static/img/sliderIcons/modules.png'
-import informationIcon from '../../../static/img/sliderIcons/modules.png'
+import informationIcon from '../../../static/img/sliderIcons/info.png'
 
 import newsDisplay from '../../../static/img/appDisplays/news.png'
 import modulesDisplay from '../../../static/img/appDisplays/modules.png'
