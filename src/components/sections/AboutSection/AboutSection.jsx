@@ -1,17 +1,25 @@
 import React, {Component} from 'react'
-import {Typography} from 'antd'
+import {notification, Typography} from 'antd'
 import connect from "react-redux/es/connect/connect"
 import {selectLocale} from "../../../store/selectors/common"
 import { localization } from '../../../constants/locale'
 import './AboutSection.css'
 import handImage from '../../../static/img/hand2.png'
 import googlePlayBadge from '../../../static/img/google-play-badge.svg'
-import appStoreBadge from '../../../static/img/app-store-badge.svg'
+import downloadBadge from '../../../static/img/download-badge.png'
 
 
 const {Title, Text} = Typography
 
 class AboutSection extends Component {
+
+    openNotification = () => {
+        notification.info({
+            message: 'Уже скоро!',
+            placement: 'topLeft'
+        })
+    }
+
     render() {
         const text = localization[this.props.locale].aboutSectionText
         return (
@@ -31,8 +39,8 @@ class AboutSection extends Component {
                                 <Text style={{color: "white", fontSize: "1.2rem"}} >{text.appDescriptionText}</Text>
                             </div>
                             <div id="storeBadgesContainer">
-                                <img src={googlePlayBadge}/>
-                                <img src={appStoreBadge}/>
+                                <img src={googlePlayBadge} onClick={this.openNotification}/>
+                                <img src={downloadBadge} onClick={this.openNotification}/>
                             </div>
                         </div>
                     </div>
