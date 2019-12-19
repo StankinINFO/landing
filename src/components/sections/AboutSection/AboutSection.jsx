@@ -4,7 +4,7 @@ import connect from "react-redux/es/connect/connect"
 import {selectLocale} from "../../../store/selectors/common"
 import { localization } from '../../../constants/locale'
 import './AboutSection.css'
-import handImage from '../../../static/img/hand2.png'
+import handImage from '../../../static/img/hand3.png'
 import googlePlayBadge from '../../../static/img/google-play-badge.svg'
 import downloadBadge from '../../../static/img/download-badge.png'
 
