@@ -7,6 +7,7 @@ export default class FeaturesCarousel extends Component {
 
     constructor(props) {
         super(props)
+        this.slider = React.createRef()
         this.sliderIcon = React.createRef()
         this.state = {
             touchStartX: null,
@@ -23,16 +24,19 @@ export default class FeaturesCarousel extends Component {
     }
 
     handleOnTouchStart = (e) => {
+        e.preventDefault()
+        const touchStartX = e.changedTouches[0].screenX
         this.setState({
-            touchStartX: e.screenX,
+            touchStartX,
         })
     }
 
     handleOnTouchEnd = (e) => {
+        const touchEndX = e.changedTouches[0].screenX
         const { touchStartX } = this.state
-        if (e.screenX < touchStartX) {
+        if (touchEndX > touchStartX) {
             this.slider.current.prev()
-        } else if (e.screenX > touchStartX) {
+        } else if (touchEndX < touchStartX) {
             this.slider.current.next()
         }
     }
@@ -59,6 +63,7 @@ export default class FeaturesCarousel extends Component {
                     autoplay
                     beforeChange={this.handleSlideBeforeChange}
                     afterChange={this.handleSlideAfterChange}
+                    ref={ this.slider }
                 >
                     {
                         slides.map(slide => {
