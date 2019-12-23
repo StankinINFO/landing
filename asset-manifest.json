@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.9d48c4aa.chunk.css",
-    "main.js": "/landing/static/js/main.e5f971b2.chunk.js",
-    "main.js.map": "/landing/static/js/main.e5f971b2.chunk.js.map",
+    "main.css": "/landing/static/css/main.3d9b71e1.chunk.css",
+    "main.js": "/landing/static/js/main.c1ac62c8.chunk.js",
+    "main.js.map": "/landing/static/js/main.c1ac62c8.chunk.js.map",
     "runtime-main.js": "/landing/static/js/runtime-main.35f29940.js",
     "runtime-main.js.map": "/landing/static/js/runtime-main.35f29940.js.map",
     "static/css/2.c726b981.chunk.css": "/landing/static/css/2.c726b981.chunk.css",
-    "static/js/2.beed7c65.chunk.js": "/landing/static/js/2.beed7c65.chunk.js",
-    "static/js/2.beed7c65.chunk.js.map": "/landing/static/js/2.beed7c65.chunk.js.map",
+    "static/js/2.25024a5b.chunk.js": "/landing/static/js/2.25024a5b.chunk.js",
+    "static/js/2.25024a5b.chunk.js.map": "/landing/static/js/2.25024a5b.chunk.js.map",
     "index.html": "/landing/index.html",
-    "precache-manifest.97c608d36c811b2c6a8aa461475c2631.js": "/landing/precache-manifest.97c608d36c811b2c6a8aa461475c2631.js",
+    "precache-manifest.31c4a1112b796b5c3cfe65cda78ecc51.js": "/landing/precache-manifest.31c4a1112b796b5c3cfe65cda78ecc51.js",
     "service-worker.js": "/landing/service-worker.js",
     "static/css/2.c726b981.chunk.css.map": "/landing/static/css/2.c726b981.chunk.css.map",
-    "static/css/main.9d48c4aa.chunk.css.map": "/landing/static/css/main.9d48c4aa.chunk.css.map",
-    "static/js/2.beed7c65.chunk.js.LICENSE": "/landing/static/js/2.beed7c65.chunk.js.LICENSE",
+    "static/css/main.3d9b71e1.chunk.css.map": "/landing/static/css/main.3d9b71e1.chunk.css.map",
+    "static/js/2.25024a5b.chunk.js.LICENSE": "/landing/static/js/2.25024a5b.chunk.js.LICENSE",
     "static/media/Balagansky.png": "/landing/static/media/Balagansky.c4307612.png",
     "static/media/Ermakov.png": "/landing/static/media/Ermakov.76811e76.png",
     "static/media/Kirsakova.png": "/landing/static/media/Kirsakova.8c2cfcd5.png",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.35f29940.js",
     "static/css/2.c726b981.chunk.css",
-    "static/js/2.beed7c65.chunk.js",
-    "static/css/main.9d48c4aa.chunk.css",
-    "static/js/main.e5f971b2.chunk.js"
+    "static/js/2.25024a5b.chunk.js",
+    "static/css/main.3d9b71e1.chunk.css",
+    "static/js/main.c1ac62c8.chunk.js"
   ]
 }
